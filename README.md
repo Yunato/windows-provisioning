@@ -1,7 +1,7 @@
 # windows-provisioning
-Provisioning files for Windows
+Provisioning files for Windows 10.
 
-# Usage (Windows 10)
+# Setup
 ## First step
 
 Install with PowerShell.exe
@@ -29,19 +29,19 @@ Install git
 Clone this repository
 
 ```
+> cd ~
 > git clone https://github.com/Yunato/windows-provisioning.git
 ```
 
-## Forth step
+# Usage
 
-Install applications
+## Install applications
 
 ```
-> cd ./windows-provisioning
-> choco install .\package.config -y
+> choco install ~\windows-provisioning\package.config -y
 ```
 
-# Upgrade
+## Upgrade
 
 ```
 > choco upgrade all -y
