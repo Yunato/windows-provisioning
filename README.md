@@ -47,5 +47,11 @@ Clone this repository
 > choco upgrade all -y
 ```
 
+# Installable Applications
+
+Check for following
+
+[https://chocolatey.org/packages](https://chocolatey.org/packages)
+
 # LICENSE
 MIT
